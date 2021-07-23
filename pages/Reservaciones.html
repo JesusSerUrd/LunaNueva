@@ -1,0 +1,52 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Luna Nueva Restaurant</title>
+        <link href="/css/styles1.css" rel="stylesheet" type="text/css"/>
+        <link href="/images/moon_night_midnight_2768.ico" rel="shortcut icon"/>
+    </head>
+    <body>
+        <h1>Luna nueva</h1>
+        <div class="main-content">
+            <h1 ><center>Reservacíones</center></h1>
+            <div class="div-row">
+                <label for="cbxLista">Lista de Locales</label>
+                <select id="cbxLista">
+                    <option>Colán</option>
+                    <option>Piura</option>
+                    <option>Mancora</option>
+                    <option>Organos</option>
+                </select>
+            </div>
+            <div class="div-row">
+                <labe for="txtHora">Hora de Reserva</label>
+                    <input type="time" id="txtHora"/>
+                <labe for="txtFecha">Fecha de Reserva</label>
+                    <input type="date" id="txtFecha"/>
+                <label for="txtCantComensales">Cantidad de Comensales</label>
+                    <input type="number" id="txtCantComensales" min="1" max="50" />    
+
+            </div>
+                 <div class="div-row">
+                <label for="txtNombApellidos">Nombres y Apellidos</label>
+                <input type="text" id="txtNombApellidos" />
+            </div>
+            <div class="div-row">
+                <label for="txtEmail">Email</label>
+                <input type="email" id="txtEmail"/>
+            </div>
+            <div class="div-row">
+                <label for="txtTelefono">Telefono de Contacto</label>
+                <input type= "number" id= "txtTelefono"/>
+            </div>
+            <div class="div-row">
+                <lebel for="txtDetalles ">Detalles Adicionales</lebel>
+                <input type="text" id="txtDetalles"/>
+            </div>
+            <div class="div-row center">
+                <button>Reservar</button>
+            </div>
+        </div>
+    </body>
+</html>
