@@ -2,9 +2,6 @@
     echo "Mi primera página";
 ?>
 
-
-
 <script>
-    window.location = "inicio.html";
-
+    window.location ="index.html" ;
 </script>
